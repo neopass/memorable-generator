@@ -1,0 +1,35 @@
+{
+  "name": "memorable-generator",
+  "version": "0.0.1",
+  "description": "A memorable-style password generator",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neopass/memorable-generator.git"
+  },
+  "keywords": [
+    "memorable",
+    "password",
+    "generator"
+  ],
+  "author": "James Abney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neopass/memorable-generator/issues"
+  },
+  "homepage": "https://github.com/neopass/memorable-generator#readme",
+  "dependencies": {
+    "contingent": "^0.1.9"
+  },
+  "devDependencies": {
+    "@neopass/words-by-length-view": "^0.1.1",
+    "neopass": "^0.10.2"
+  },
+  "peerDependencies": {
+    "neopass": ">= 0.10.2 < 11",
+    "@neopass/words-by-length-view": ">= 0.1.1 < 2"
+  }
+}
