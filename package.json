@@ -4,7 +4,9 @@
   "description": "A memorable-style password generator",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "test": "mocha",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
