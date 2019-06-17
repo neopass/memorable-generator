@@ -13,9 +13,11 @@
     "url": "git+https://github.com/neopass/memorable-generator.git"
   },
   "keywords": [
+    "generator",
     "memorable",
+    "neopass",
     "password",
-    "generator"
+    "plugin"
   ],
   "author": "James Abney",
   "license": "MIT",
