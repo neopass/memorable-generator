@@ -78,7 +78,8 @@ export class MemorableGenerator extends GeneratorPlugin {
   }
 
   protected _augmented(capitalize: boolean, len: number) {
-    const numInts = randomIn(1, Math.floor(len * 0.25) + 2)
+    const maxLength = Math.floor(len * 0.25) + 1
+    const numInts = randomIn(1, maxLength + 1)
     const intPart = getIntPart(numInts)
     const word = this._randomWord(capitalize, len - intPart.length)
     return randomBit() ? `${word}${intPart}` : `${intPart}${word}`
